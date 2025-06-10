@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200&display=swap');
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image: url("images/background.jpg");
+    }
+
+    .home-container-page{
+        justify-self: center;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: white;
+        width: 350px;
+        margin-top: 150px;
+    }
+
+    .page-header-container h1{
+        text-align: center;
+    }
+
+    .pages-links a{
+        text-decoration: none;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .pages-links button{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        background-color: rgb(18, 157, 243);
+        margin-bottom: 10px;
+    }
+
+    #main, #rate, #exchange{
+        width: 195px;
+    }
+
+    .rate-conveter-page-container{
+        justify-self: center;
+        border: 1px solid;
+        background-color: white;
+        border-radius: 10px;
+        width: 350px;
+        margin-top: 70px;
+    }
+
+    .rate-form-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    .missing-base-currency1, .missing-target-currency1, .missing-base-currency2, .missing-target-currency2, .missing-amount{
+        color: red;
+        font-size: 13px;
+        display: none;
+    }
+
+    #base-currency1, #target-currency1{
+        font-size: 16px;
+        width: 197px;
+    }
+
+    #convert-button1{
+        font-size: 16px;
+        width: 197px;
+        background-color: rgba(11, 178, 30, 0.919);
+    }
+
+    button[type="reset"]{
+        font-size: 16px;
+        width: 197px;
+        background-color: rgba(11, 178, 30, 0.919);
+    }
+
+    .display-rate{
+        font-size: 14px;
+        width: 197px;
+        display: flex;
+    }
+
+    .currency-exchange-container-page{
+        justify-self: center;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: white;
+        width: 350px;
+        margin-top: 90px;
+    }
+
+    .exchange-form-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    #base-currency2, #target-currency2{
+        font-size: 15px;
+        width: 200px;
+    }
+
+    #amount{
+        width: 190px;
+    }
+
+    #convert-button2{
+        background-color: rgb(11, 178, 30, 0.919);
+        font-size: 15px;
+        width: 197px;
+    }
+    
+    .display-result{
+        font-size: 14px;
+        width: 190px;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px){
+    body{
+        background-image: url("images/background.jpg");
+    }
+
+    .home-container-page{
+        justify-self: center;
+        justify-items: center;
+        border: 1px solid;
+        border-radius: 10px;
+        margin-top: 350px;
+        width: 500px;
+        background-color: white;
+    }
+
+    .page-header-container h1{
+        font-size: 50px;
+    }
+
+    .pages-links a{
+        text-decoration: none;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    .pages-links button{
+        background-color: rgb(18, 157, 243);
+        margin-bottom: 30px;
+    }
+
+    .rate-conveter-page-container{
+        justify-items: center;
+        justify-self: center;
+        border: 1px solid;
+        background-color: white;
+        width: 600px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .missing-base-currency1, .missing-target-currency1, .missing-base-currency2, .missing-target-currency2, .missing-amount{
+        color: red;
+        font-size: 17px;
+        display: none;
+    }
+
+    #base-currency1, #target-currency1{
+        font-size: 16px;
+        width: 207px;
+    }
+
+    #convert-button1{
+        font-size: 17px;
+        background-color: rgb(25, 228, 86);
+    }
+
+    button[type="reset"]{
+        font-size: 17px;
+        width: 200px;
+        background-color: rgb(25, 228, 86);
+    }
+
+    .display-rate{
+        font-size: 18px;
+    }
+
+    .currency-exchange-container-page{
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+        border: 1px solid;
+        background-color: white;
+        margin-top: 200px;
+        width: 600px;
+    }
+
+    #base-currency2, #target-currency2{
+        font-size: 16px;
+        width: 200px;
+    }
+
+    #amount{
+        font-size: 16px;
+    }
+
+    #convert-button2{
+        background-color: rgb(25, 228, 86);
+        font-size: 16px;
+    }
+
+    .display-result{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    body{
+        background-image: url("images/background.jpg");
+    }
+
+    .home-container-page{
+        justify-self: center;
+        justify-items: center;
+        border: 1px solid;
+        border-radius: 10px;
+        margin-top: 150px;
+        width: 600px;
+        background-color: white;
+    }
+
+    .page-header-container h1{
+        font-size: 50px;
+    }
+
+    .pages-links a{
+        text-decoration: none;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    .pages-links button{
+        background-color: rgb(18, 157, 243);
+        margin-bottom: 30px;
+    }
+
+    .rate-conveter-page-container{
+        justify-items: center;
+        justify-self: center;
+        border: 1px solid;
+        background-color: white;
+        width: 600px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .missing-base-currency1, .missing-target-currency1, .missing-base-currency2, .missing-target-currency2, .missing-amount{
+        color: red;
+        font-size: 17px;
+        display: none;
+    }
+
+    select{
+        cursor: pointer;
+    }
+
+    #base-currency1{
+        font-size: 16px;
+        width: 207px;
+    }
+
+    #target-currency1{
+        font-size: 16px;
+    }
+
+    #convert-button1{
+        font-size: 17px;
+        background-color: rgb(25, 228, 86);
+        cursor: pointer;
+    }
+
+    button[type="reset"]{
+        font-size: 17px;
+        width: 200px;
+        background-color: rgb(25, 228, 86);
+        cursor: pointer;
+    }
+
+    .display-rate{
+        font-size: 20px;
+    }
+
+    .currency-exchange-container-page{
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+        border: 1px solid;
+        background-color: white;
+        margin-top: 75px;
+        width: 600px;
+    }
+
+    #base-currency2{
+        font-size: 16px;
+        width: 207px;
+    }
+
+    #target-currency2{
+        font-size: 16px;
+    }
+
+    #amount{
+        font-size: 16px;
+    }
+
+    #convert-button2{
+        background-color: rgb(25, 228, 86);
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .display-result{
+        font-size: 20px;
+    }
+}
