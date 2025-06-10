@@ -15,7 +15,7 @@ The project includes automated UI tests using Selenium and pytest to ensure reli
 ### What the Tests Cover:
 - Page Titles: Verifies that each page displays the correct title.
 - Navigation Buttons: Confirms buttons redirect users to the correct pages.
-- Form Validation:** Checks that error messages appear when required fields are missing.
+- Form Validation: Checks that error messages appear when required fields are missing.
 - Conversion Accuracy: Validates that conversion rates and results match expected values.
 - Clear Functionality: Ensures that reset buttons properly clear the forms and displayed results.
 
