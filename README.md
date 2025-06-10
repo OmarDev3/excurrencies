@@ -25,7 +25,7 @@ The project includes automated UI tests using Selenium and pytest to ensure reli
 - Simplifies Maintenance: Makes it easier to update code without breaking existing functionality.
 - Increases Confidence: Provides assurance that the application behaves as expected across differe.
 
-# Technologies Used
+## Technologies Used
 - HTML, CSS, JavaScript for front-end.
 - Selenium WebDriver and pytest for automated testing.
 - External currency conversion API for live data.
