@@ -1,6 +1,13 @@
 # excurrencies Web Application
 A simple and user-friendly web application for converting currency exchange rates and performing currency exchanges. This project includes three main pages: a Main Page, Exchange Rate Converter, and Currency Exchange, along with automated tests to ensure functionality.
 
+**Website Link:** https://omardev3.github.io/excurrencies/
+
+## Technologies Used
+- HTML, CSS, JavaScript for front-end.
+- Selenium WebDriver and pytest for automated testing.
+- External currency conversion API for live data.
+
 ## Features and Functionality
 - Multi-page structure: Includes a main page, exchange rate converter page, and currency exchange page.
 - Currency selection: Users can select from a wide list of international currency codes.
@@ -24,8 +31,3 @@ The project includes automated UI tests using Selenium and pytest to ensure reli
 - Enhances User Experience: Ensures that users receive clear feedback and accurate results.
 - Simplifies Maintenance: Makes it easier to update code without breaking existing functionality.
 - Increases Confidence: Provides assurance that the application behaves as expected across differe.
-
-## Technologies Used
-- HTML, CSS, JavaScript for front-end.
-- Selenium WebDriver and pytest for automated testing.
-- External currency conversion API for live data.
