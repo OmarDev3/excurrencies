@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Rate Converter</title>
+</head>
+<body>
+    <div class="rate-conveter-page-container">
+        <div class="page-header-container">
+            <h1 class="page-title">Exchange Rate Converter</h1>
+        </div>
+
+        <div class="pages-links">
+            <button id="main"><a href="index.html">Main Page</a></button>
+            <button id="rate"><a href="rate converter.html">Exchange Rate Convert</a></button>
+            <button id="exchange"><a href="currency exchange.html">Currency Exchange</a></button>
+        </div>
+
+
+        <div class="rate-form-container">
+            <form>
+                <select id="base-currency1">
+                    <option value="">--Select Base Currency--</option>
+                </select>
+                <span class="missing-base-currency1">Enter base currency</span>
+                <br><br>
+
+                <select id="target-currency1">
+                    <option value="">--Select Target Currency--</option>
+                </select>
+                <span class="missing-target-currency1">Enter target currency</span>
+                <br><br>
+                
+                <button type="submit" id="convert-button1">Display Conversion Rate</button>
+                <br><br>
+                
+                <button type="reset">Clear</button>
+                <br><br>
+
+                <span class="display-rate"></span>
+            </form>
+        </div>
+    </div>
+
+    <script src="rate.js" type="text/javascript"></script>
+</body>
+</html>
