@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200&display=swap');
 
-
 @media only screen and (max-width: 600px){
     body{
         background-image: url("./background.jpg");
@@ -36,6 +35,14 @@
 
     #main, #rate, #exchange{
         width: 195px;
+    }
+
+    .home-paragraph{
+        text-align: center;
+    }
+
+    .footer-page{
+        text-align: center;
     }
 
     .rate-conveter-page-container{
@@ -152,6 +159,14 @@
         margin-bottom: 30px;
     }
 
+    .home-paragraph{
+        text-align: center;
+    }
+
+    .footer-page{
+        text-align: center;
+    }
+
     .rate-conveter-page-container{
         justify-items: center;
         justify-self: center;
@@ -246,6 +261,14 @@
     .pages-links button{
         background-color: rgb(18, 157, 243);
         margin-bottom: 30px;
+    }
+
+    .home-paragraph{
+        text-align: center;
+    }
+
+    .footer-page{
+        text-align: center;
     }
 
     .rate-conveter-page-container{

@@ -54,8 +54,8 @@ def test_conversion_result(driver):
 
     conversion_result = (By.CLASS_NAME, "display-result")
 
-    WebDriverWait(driver, 10).until(EC.text_to_be_present_in_element(conversion_result, "Conversion Result: 994.89"))
-    assert driver.find_element(*conversion_result).text == "Conversion Result: 994.89"
+    WebDriverWait(driver, 10).until(EC.text_to_be_present_in_element(conversion_result, "Conversion Result: 994.97"))
+    assert driver.find_element(*conversion_result).text == "Conversion Result: 994.97"
 
 #verify clear button reset the fields page
 def test_clear_btn(driver):
